@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRecoilState } from "recoil"
-import Router from "./router"
-import { theme } from "./store"
+import Router from "../src/router"
+import { theme } from "../src/store"
 
 function App() {
 	const [currentTheme, setCurrentTheme] = useRecoilState(theme)
